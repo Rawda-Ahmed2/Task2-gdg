@@ -1,0 +1,52 @@
+.container {
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sedans {
+    background-color: #E28525;
+
+    button {
+        color: #E28525;
+    }
+}
+.suvs{
+    background-color: #016972;
+
+    button {
+        color: #016972;
+    }
+}
+.luxury{
+    background-color: #00403F;
+
+    button {
+        color: #00403F;
+    }
+}
+.all {
+    width: 33.333%;
+
+    color: #fff;
+    text-align: left;
+    float: left;
+
+    padding: 30px;
+    box-sizing: border-box;
+
+    img {
+        width: 20%;
+    }
+    button {
+        border: 0px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding-inline: 30px;
+        padding-block: 15px;
+    }
+}
+
+.claer-fix {
+    clear: left;
+}
